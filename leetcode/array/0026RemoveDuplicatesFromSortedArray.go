@@ -53,7 +53,7 @@ func removeDuplicates3(nums []int) int {
 	return count
 }
 
-func main() {
+func removeDuplicates0026() {
 	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
 	//nums2 := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
 	nums3 := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}

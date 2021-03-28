@@ -23,6 +23,6 @@ func generate(numRows int) [][]int {
 	return result
 }
 
-func main() {
+func generate0118() {
 	fmt.Println(generate(5))
 }

@@ -62,7 +62,7 @@ func maxSubarray2(nums []int) int {
 	return maxSum
 }
 
-func main() {
+func maxSubarray0053() {
 	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
 	fmt.Println(maxSubarray(nums))  //6
 	fmt.Println(maxSubarray2(nums)) //6

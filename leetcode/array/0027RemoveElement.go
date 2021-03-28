@@ -21,7 +21,7 @@ func removeElement(nums []int, val int) int {
 	return j
 }
 
-func main() {
+func removeElement0027() {
 	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
 	fmt.Println(removeElement(nums, 2))
 }

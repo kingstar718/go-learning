@@ -28,7 +28,7 @@ func searchInsert(nums []int, target int) int {
 	return 0
 }
 
-func main() {
+func searchInsert0035() {
 	nums := []int{1, 3, 5, 6}
 	fmt.Println(searchInsert(nums, 5)) //2
 	fmt.Println(searchInsert(nums, 2)) //1

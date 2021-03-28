@@ -36,7 +36,7 @@ func plusOne(digits []int) []int {
 	return digits
 }
 
-func main() {
+func plusOne0066() {
 	nums1 := []int{1, 2, 3}
 	nums2 := []int{4, 3, 2, 1}
 	nums3 := []int{9, 9, 9}

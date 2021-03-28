@@ -26,7 +26,7 @@ func maxProfit(princes []int) int {
 	return max
 }
 
-func main() {
+func maxProfit0121() {
 	p := []int{7, 1, 5, 3, 6, 4}
 	p2 := []int{7, 6, 4, 3, 2, 1}
 	fmt.Println(maxProfit(p))
