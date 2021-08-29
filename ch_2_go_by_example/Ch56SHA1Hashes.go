@@ -1,6 +1,7 @@
 package main
 
 import (
+	"crypto/md5"
 	"crypto/sha1"
 	"fmt"
 )
@@ -20,4 +21,13 @@ func main() {
 	// SHA1 值通常以十六进制打印，例如在 git commits 中。
 	// 使用%x格式动词将哈希结果转换为十六进制字符串。
 	fmt.Printf("%x\n", bs)
+
+	fmt.Println("---------")
+
+	h2 := md5.New()
+	h2.Write([]byte(s))
+	bs2 := h2.Sum(nil)
+	fmt.Println(bs2)
+	fmt.Printf("%x\n", bs2)
+
 }
