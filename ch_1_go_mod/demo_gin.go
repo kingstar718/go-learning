@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func GinDemo() {
 	r := gin.Default()
 	r.GET("/pong", func(c *gin.Context) {
 		c.JSON(200, gin.H{

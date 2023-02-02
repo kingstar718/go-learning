@@ -10,8 +10,10 @@ import (
 运行项目：go run 文件名
 */
 
-func main() {
+func LogrusDemo(s string) {
 	log.WithFields(log.Fields{
 		"animals": "walrus",
 	}).Info("A walrus appears")
+	log.Info("log info s: {}", s)
+	log.Debug("log debug s: {}")
 }
